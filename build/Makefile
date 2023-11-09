@@ -153,6 +153,30 @@ src/BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/BST.cpp.s
 .PHONY : src/BST.cpp.s
 
+src/KVDB.o: src/KVDB.cpp.o
+.PHONY : src/KVDB.o
+
+# target to build an object file
+src/KVDB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/KVDB.cpp.o
+.PHONY : src/KVDB.cpp.o
+
+src/KVDB.i: src/KVDB.cpp.i
+.PHONY : src/KVDB.i
+
+# target to preprocess a source file
+src/KVDB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/KVDB.cpp.i
+.PHONY : src/KVDB.cpp.i
+
+src/KVDB.s: src/KVDB.cpp.s
+.PHONY : src/KVDB.s
+
+# target to generate assembly for a file
+src/KVDB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/src/KVDB.cpp.s
+.PHONY : src/KVDB.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/BST.o"
 	@echo "... src/BST.i"
 	@echo "... src/BST.s"
+	@echo "... src/KVDB.o"
+	@echo "... src/KVDB.i"
+	@echo "... src/KVDB.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

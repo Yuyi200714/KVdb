@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mydb.dir/src/BST.cpp.o"
   "CMakeFiles/mydb.dir/src/BST.cpp.o.d"
+  "CMakeFiles/mydb.dir/src/KVDB.cpp.o"
+  "CMakeFiles/mydb.dir/src/KVDB.cpp.o.d"
   "CMakeFiles/mydb.dir/src/main.cpp.o"
   "CMakeFiles/mydb.dir/src/main.cpp.o.d"
   "mydb"

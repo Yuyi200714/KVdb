@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14) # Set C++ standard
 
 include_directories(include)
 
-add_executable(mydb src/main.cpp src/BST.cpp) # Add executable target with source file
+add_executable(mydb src/main.cpp src/BST.cpp src/KVDB.cpp) # Add executable target with source file

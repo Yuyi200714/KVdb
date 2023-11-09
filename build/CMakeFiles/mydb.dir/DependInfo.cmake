@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ubuntu/yuyi/KVdb/src/BST.cpp" "CMakeFiles/mydb.dir/src/BST.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/BST.cpp.o.d"
+  "/home/ubuntu/yuyi/KVdb/src/KVDB.cpp" "CMakeFiles/mydb.dir/src/KVDB.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/KVDB.cpp.o.d"
   "/home/ubuntu/yuyi/KVdb/src/main.cpp" "CMakeFiles/mydb.dir/src/main.cpp.o" "gcc" "CMakeFiles/mydb.dir/src/main.cpp.o.d"
   )
 
