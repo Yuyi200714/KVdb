@@ -1,0 +1,3 @@
+/home/ubuntu/yuyi/KVdb/build/CMakeFiles/mydb.dir
+/home/ubuntu/yuyi/KVdb/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/yuyi/KVdb/build/CMakeFiles/rebuild_cache.dir

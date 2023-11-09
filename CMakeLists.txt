@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10) # Minimum version of CMake
+
+project(mydb) # Name of your project
+
+set(CMAKE_CXX_STANDARD 14) # Set C++ standard
+
+include_directories(include)
+
+add_executable(mydb src/main.cpp src/BST.cpp) # Add executable target with source file
