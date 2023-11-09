@@ -181,3 +181,7 @@ void BST::_deleteNode(BST::Node* node) {
 BST::~BST() {
     _deleteNode(_root);
 }
+
+BST::Node* BST::_getRoot() {
+    return _root;
+}

@@ -73,43 +73,43 @@ CMakeFiles/mydb.dir/src/main.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/mydb.dir/src/main.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mydb.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/main.cpp.o -MF CMakeFiles/mydb.dir/src/main.cpp.o.d -o CMakeFiles/mydb.dir/src/main.cpp.o -c /home/ubuntu/yuyi/KVdb/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/main.cpp.o -MF CMakeFiles/mydb.dir/src/main.cpp.o.d -o CMakeFiles/mydb.dir/src/main.cpp.o -c /home/ubuntu/yuyi/KVdb/src/main.cpp
 
 CMakeFiles/mydb.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydb.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/main.cpp > CMakeFiles/mydb.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/main.cpp > CMakeFiles/mydb.dir/src/main.cpp.i
 
 CMakeFiles/mydb.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/main.cpp -o CMakeFiles/mydb.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/main.cpp -o CMakeFiles/mydb.dir/src/main.cpp.s
 
 CMakeFiles/mydb.dir/src/BST.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/BST.cpp.o: ../src/BST.cpp
 CMakeFiles/mydb.dir/src/BST.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mydb.dir/src/BST.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/BST.cpp.o -MF CMakeFiles/mydb.dir/src/BST.cpp.o.d -o CMakeFiles/mydb.dir/src/BST.cpp.o -c /home/ubuntu/yuyi/KVdb/src/BST.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/BST.cpp.o -MF CMakeFiles/mydb.dir/src/BST.cpp.o.d -o CMakeFiles/mydb.dir/src/BST.cpp.o -c /home/ubuntu/yuyi/KVdb/src/BST.cpp
 
 CMakeFiles/mydb.dir/src/BST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydb.dir/src/BST.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/BST.cpp > CMakeFiles/mydb.dir/src/BST.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/BST.cpp > CMakeFiles/mydb.dir/src/BST.cpp.i
 
 CMakeFiles/mydb.dir/src/BST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/BST.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/BST.cpp -o CMakeFiles/mydb.dir/src/BST.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/BST.cpp -o CMakeFiles/mydb.dir/src/BST.cpp.s
 
 CMakeFiles/mydb.dir/src/KVDB.cpp.o: CMakeFiles/mydb.dir/flags.make
 CMakeFiles/mydb.dir/src/KVDB.cpp.o: ../src/KVDB.cpp
 CMakeFiles/mydb.dir/src/KVDB.cpp.o: CMakeFiles/mydb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mydb.dir/src/KVDB.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/KVDB.cpp.o -MF CMakeFiles/mydb.dir/src/KVDB.cpp.o.d -o CMakeFiles/mydb.dir/src/KVDB.cpp.o -c /home/ubuntu/yuyi/KVdb/src/KVDB.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mydb.dir/src/KVDB.cpp.o -MF CMakeFiles/mydb.dir/src/KVDB.cpp.o.d -o CMakeFiles/mydb.dir/src/KVDB.cpp.o -c /home/ubuntu/yuyi/KVdb/src/KVDB.cpp
 
 CMakeFiles/mydb.dir/src/KVDB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mydb.dir/src/KVDB.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/KVDB.cpp > CMakeFiles/mydb.dir/src/KVDB.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/yuyi/KVdb/src/KVDB.cpp > CMakeFiles/mydb.dir/src/KVDB.cpp.i
 
 CMakeFiles/mydb.dir/src/KVDB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mydb.dir/src/KVDB.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/KVDB.cpp -o CMakeFiles/mydb.dir/src/KVDB.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/yuyi/KVdb/src/KVDB.cpp -o CMakeFiles/mydb.dir/src/KVDB.cpp.s
 
 # Object files for target mydb
 mydb_OBJECTS = \

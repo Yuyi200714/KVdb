@@ -24,5 +24,6 @@ public:
     void _InOrder(Node* root);
     void InOrder();
     void _deleteNode(Node* root);
+    Node* _getRoot();
     ~BST();
 };

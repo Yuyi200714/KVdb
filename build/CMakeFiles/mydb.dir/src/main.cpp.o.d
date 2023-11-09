@@ -146,4 +146,8 @@ CMakeFiles/mydb.dir/src/main.cpp.o: /home/ubuntu/yuyi/KVdb/src/main.cpp \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ubuntu/yuyi/KVdb/include/KVDB.h
+ /home/ubuntu/yuyi/KVdb/include/KVDB.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc
