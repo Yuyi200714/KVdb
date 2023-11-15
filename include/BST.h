@@ -18,7 +18,7 @@ class BST
 private:
     Node* _root = nullptr;
 public:
-    bool Insert(const string& key, const string& value);
+    void Insert(const string& key, const string& value);
     Node* Find(const string& key);
     bool Erase(const string& key);
     void _InOrder(Node* root);

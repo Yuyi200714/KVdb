@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libkvdb.so -o libkvdb.so CMakeFiles/kvdb.dir/src/BST.cpp.o CMakeFiles/kvdb.dir/src/KVDB.cpp.o 

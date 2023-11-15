@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/yuyi/KVdb/build
 
 # The main recursive "all" target.
 all: CMakeFiles/mydb.dir/all
+all: CMakeFiles/kvdb.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/mydb.dir/clean
+clean: CMakeFiles/kvdb.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/mydb.dir/clean
 CMakeFiles/mydb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=1,2,3,4 "Built target mydb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=4,5,6,7 "Built target mydb"
 .PHONY : CMakeFiles/mydb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ mydb: CMakeFiles/mydb.dir/rule
 CMakeFiles/mydb.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mydb.dir/build.make CMakeFiles/mydb.dir/clean
 .PHONY : CMakeFiles/mydb.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/kvdb.dir
+
+# All Build rule for target.
+CMakeFiles/kvdb.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kvdb.dir/build.make CMakeFiles/kvdb.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kvdb.dir/build.make CMakeFiles/kvdb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/yuyi/KVdb/build/CMakeFiles --progress-num=1,2,3 "Built target kvdb"
+.PHONY : CMakeFiles/kvdb.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/kvdb.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/yuyi/KVdb/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kvdb.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/yuyi/KVdb/build/CMakeFiles 0
+.PHONY : CMakeFiles/kvdb.dir/rule
+
+# Convenience name for target.
+kvdb: CMakeFiles/kvdb.dir/rule
+.PHONY : kvdb
+
+# clean rule for target.
+CMakeFiles/kvdb.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kvdb.dir/build.make CMakeFiles/kvdb.dir/clean
+.PHONY : CMakeFiles/kvdb.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

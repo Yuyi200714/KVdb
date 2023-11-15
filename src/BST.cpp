@@ -2,12 +2,12 @@
 #include<string>
 #include<BST.h>
 using namespace std;
-bool BST::Insert(const string& key, const string& value)
+void BST::Insert(const string& key, const string& value)
 {
 	if (_root == nullptr)//如果根为空，则创建根
 	{
 		_root = new Node(key, value);
-    	return true;
+    	return;
 	}
 	Node* parent = nullptr;
 	Node* cur = _root;
@@ -25,7 +25,8 @@ bool BST::Insert(const string& key, const string& value)
 		}
 		else//如果相等便不再插入
 		{
-			return false;
+            cur->_value = value;
+			return;
 		}
 	}
 
@@ -39,7 +40,7 @@ bool BST::Insert(const string& key, const string& value)
 	{
 		parent->_pRight = cur;
 	}
-	return true;
+	return;
 }
 BST::Node* BST::Find(const string& key)
 {

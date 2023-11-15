@@ -13,5 +13,15 @@
   "directory": "/home/ubuntu/yuyi/KVdb/build",
   "command": "/usr/bin/g++  -I/home/ubuntu/yuyi/KVdb/include -g -std=gnu++14 -o CMakeFiles/mydb.dir/src/KVDB.cpp.o -c /home/ubuntu/yuyi/KVdb/src/KVDB.cpp",
   "file": "/home/ubuntu/yuyi/KVdb/src/KVDB.cpp"
+},
+{
+  "directory": "/home/ubuntu/yuyi/KVdb/build",
+  "command": "/usr/bin/g++ -Dkvdb_EXPORTS -I/home/ubuntu/yuyi/KVdb/include -g -fPIC -std=gnu++14 -o CMakeFiles/kvdb.dir/src/BST.cpp.o -c /home/ubuntu/yuyi/KVdb/src/BST.cpp",
+  "file": "/home/ubuntu/yuyi/KVdb/src/BST.cpp"
+},
+{
+  "directory": "/home/ubuntu/yuyi/KVdb/build",
+  "command": "/usr/bin/g++ -Dkvdb_EXPORTS -I/home/ubuntu/yuyi/KVdb/include -g -fPIC -std=gnu++14 -o CMakeFiles/kvdb.dir/src/KVDB.cpp.o -c /home/ubuntu/yuyi/KVdb/src/KVDB.cpp",
+  "file": "/home/ubuntu/yuyi/KVdb/src/KVDB.cpp"
 }
 ]
